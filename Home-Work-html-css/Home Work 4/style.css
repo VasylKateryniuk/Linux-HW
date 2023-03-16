@@ -1,0 +1,138 @@
+/* ДЗ перший рівень */
+
+.container-1 {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  background-color: #0d5825;
+  margin: 20px;
+}
+
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 25px;
+  color: white;
+  line-height: normal;
+}
+
+.img-card-1 {
+  width: 150px;
+  position: absolute;
+  left: 32%;
+  top: 37%;
+  transform: rotate(-12deg);
+  z-index: 2;
+  transition: all 0.5s ease;
+}
+
+.img-card-2 {
+  width: 150px;
+  position: absolute;
+  left: 22%;
+  top: 36%;
+  transform: rotate(-25deg);
+  z-index: 1;
+  transition: all 0.5s ease;
+}
+
+.img-card-3 {
+  width: 150px;
+  position: absolute;
+  left: 43%;
+  top: 41%;
+  transform: rotate(8deg);
+  z-index: 3;
+  transition: all 0.5s ease;
+}
+
+.img-card-3:hover {
+  transform: translateY(-20px) rotate(8deg);
+}
+
+.img-card-2:hover {
+  transform: translateY(-20px) rotate(-25deg);
+}
+
+.img-card-1:hover {
+  transform: translateY(-20px) rotate(-12deg);
+}
+
+/* ДЗ другий рівень */
+
+.container-2 {
+  margin-top: -520px;
+  margin-left: 600px;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+
+.square-one {
+  height: 100px;
+  width: 100px;
+  background-color: #f29191;
+  background-clip: content-box;
+  position: absolute;
+  z-index: 1;
+}
+
+.square-two {
+  height: 100px;
+  width: 100px;
+  background-color: #6d96db;
+  background-clip: content-box;
+  position: absolute;
+  left: 60px;
+  top: 60px;
+  z-index: 3;
+}
+
+.square-three {
+  height: 100px;
+  width: 100px;
+  background-color: #7ce785;
+  background-clip: content-box;
+  position: absolute;
+  left: 120px;
+  top: 120px;
+  z-index: 2;
+}
+
+/* ДЗ третій рівень */
+
+.container-3 {
+  position: relative;
+  left: 600px;
+  height: 300px;
+  width: 300px;
+  background-color: beige;
+}
+
+.square-four {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  left: 20px;
+  background-clip: content-box;
+  animation-name: square-run;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes square-run {
+  25% {
+    background-color: blue;
+    transform: translateX(0%) translateY(180%);
+  }
+
+  50% {
+    background-color: green;
+    transform: translateX(140%) translateY(180%);
+  }
+  75% {
+    transform: translateX(140%) translateY(0%);
+    background-color: yellow;
+  }
+}

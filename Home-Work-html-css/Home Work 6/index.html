@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Контактна інформація</legend>
+        <label for="name">Ім'я<em> *</em> </label>
+        <input type="text" id="name" /> <br />
+        <br />
+        <label for="E-mail">Email</label>
+        <input type="email" id="E-mail" />
+        <br />
+        <br />
+        <label for="tel"> Телефон</label>
+        <input type="tel" id="tel" />
+        <br />
+        <br />
+        <select name="countries">
+          <option value="Ukraine">Україна</option>
+          <option value="Poland">Польша</option>
+          <option value="England">Ангія</option>
+          <option value="Sweden">Швеція</option>
+          <option value="France">Франція</option>
+        </select>
+        <br />
+        <br />
+        <textarea name="text"></textarea>
+        <br />
+        <br />
+        <div class="check">
+          <input type="checkbox" id="checkbox-id" />
+          <label for="checkbox-id">Так</label>
+          <br />
+          <br />
+          <input type="checkbox" id="checkbox-id-1" />
+          <label for="checkbox-id-1">Ні</label>
+          <br />
+          <br />
+          <input type="checkbox" id="checkbox-id-2" />
+          <label for="checkbox-id-2">Можливо</label>
+        </div>
+      </fieldset>
+      <button type="submit">Відправити</button>
+    </form>
+  </body>
+</html>

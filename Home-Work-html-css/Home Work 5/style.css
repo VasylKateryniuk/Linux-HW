@@ -1,0 +1,184 @@
+/*  перший та другий рівень */
+
+html,
+body {
+  font-family: Helvetica, "Raleway", Arial, sans-serif;
+  height: 100%;
+}
+
+.wraper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #d0b413;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.header-logo-img {
+  height: 50px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list-link {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+}
+
+.main {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.main-content {
+  text-align: center;
+  padding: 15px;
+  line-height: 1.2;
+}
+
+.main-title {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  padding: 7px;
+  flex: 0 1 30%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.card:hover {
+  background-color: #e4f1ef;
+  transform: scale(1.03);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.card-img {
+  height: 80px;
+  width: 80px;
+  border: 8px solid #b1b9b8;
+  border-radius: 50%;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.text {
+  padding: 10px;
+}
+
+.btn {
+  background-color: #7b5082;
+  border: 2px solid #7b5082;
+  color: white;
+  border-radius: 15px;
+  padding: 3px 15px;
+  margin-top: auto;
+}
+
+.aside-1 {
+  width: 210px;
+  background-color: #c68ca7;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  order: -1;
+}
+
+.aside-2 {
+  width: 210px;
+  background-color: #9fa3ee;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #6af06f;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+/*  третій рівень */
+
+.third-level {
+  padding: 20px;
+}
+
+.Holder {
+  height: 150px;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid black;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item:first-child {
+  background-color: #fb4141;
+  flex: 50%;
+  order: -3;
+  border-radius: 27px 0px 0px 0px;
+}
+
+.item:nth-of-type(2) {
+  background-color: #487dd2;
+  flex: 30%;
+}
+
+.item:nth-of-type(3) {
+  background-color: #651195;
+  order: -1;
+  flex: 30%;
+}
+
+.item:nth-of-type(4) {
+  background-color: #059602;
+  flex: 30%;
+}
+
+.item:last-of-type {
+  background-color: #e6b00b;
+  flex: 50%;
+  order: -2;
+  border-radius: 0px 27px 0px 0px;
+}

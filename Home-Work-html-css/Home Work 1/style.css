@@ -1,0 +1,20 @@
+.header-content {
+  color: green;
+  font-size: 50px;
+  margin: 20px;
+  background-color: lavenderblush;
+  width: 50%;
+}
+
+p {
+  color: black;
+  font-size: 30px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+li {
+  color: blueviolet;
+  margin-top: 8px;
+  font-size: 20px;
+}

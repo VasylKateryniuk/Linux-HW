@@ -1,0 +1,9 @@
+.bg-box {
+  height: 100vh;
+  background: url(./img/green-png-44873.png) left bottom / 300px 300px repeat-x,
+    url(./img/photo_2023-02-20_18-03-51.jpg) center / 550px 350px no-repeat,
+    url(./img/lamp-png-34914.png) left top / 50px 70px repeat-x,
+    url(./img/photo_2023-02-20_18-05-04.jpg) left / 30px 30px repeat-y,
+    url(./img/photo_2023-02-20_18-05-12.jpg) right top / 30px 30px repeat-y;
+  background-color: green;
+}

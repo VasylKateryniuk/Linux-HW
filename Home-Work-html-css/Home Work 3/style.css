@@ -1,0 +1,146 @@
+/* ДЗ другий рівень */
+.box {
+  width: 350px;
+  height: 220px;
+  background-color: green;
+  background-clip: content-box;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  margin: 30px;
+  border: dashed 2px;
+  color: red;
+}
+
+/* ДЗ третій рівень */
+
+.text {
+  max-width: 600px;
+  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-align: justify;
+}
+.img-1 {
+  float: left;
+  width: 170px;
+  height: 100px;
+  margin: 0 10px 10px 0;
+}
+.img-2 {
+  float: right;
+  width: 130px;
+  height: 75px;
+  margin: 10px 0px 10px 10px;
+}
+
+/* ДЗ четвертий рівень */
+
+.box-2 {
+  position: relative;
+  bottom: 25px;
+  left: 30px;
+  display: inline-block;
+  background-color: grey;
+  height: 300px;
+  width: 400px;
+}
+
+.menu {
+  color: white;
+  background-color: grey;
+  position: absolute;
+  bottom: 115px;
+  padding: 18px;
+  left: -38px;
+  transform: rotate(90deg);
+  border-radius: 4px;
+  background: rgb(101, 99, 99, 22);
+  z-index: 1;
+}
+
+.menu-content {
+  position: absolute;
+  top: 50px;
+  left: -300px;
+  transition: all 0.5s ease;
+}
+
+.menu-content a {
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  margin-left: 70px;
+}
+
+a::before {
+  content: " \♦ ";
+  color: coral;
+}
+
+.box-3:hover .menu-content {
+  left: 100px;
+}
+
+a:hover {
+  background: rgb(101, 99, 99, 22);
+}
+
+/* ДЗ третій рівень */
+
+.Holder {
+  margin: 25px;
+  height: 100px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid black;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.item1 {
+  background-color: #fb4141;
+  flex: 50%;
+  order: -3;
+  border-radius: 17px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item2 {
+  background-color: #487dd2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 30%;
+}
+
+.item3 {
+  background-color: #651195;
+  order: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 30%;
+}
+
+.item4 {
+  background-color: #059602;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 30%;
+}
+
+.item5 {
+  background-color: #e6b00b;
+  flex: 50%;
+  order: -2;
+  border-radius: 0px 17px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

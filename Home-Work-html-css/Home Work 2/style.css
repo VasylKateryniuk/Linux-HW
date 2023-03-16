@@ -1,0 +1,71 @@
+/* ДЗ перший рівень */
+.home-work1 {
+  font-size: 45px;
+  margin-left: 20px;
+  margin-top: 40px;
+  font-weight: bold;
+  color: green;
+}
+
+p {
+  color: green;
+}
+
+/* ДЗ другий рівень */
+
+.home-work2 {
+  font-size: 45px;
+  margin-left: 20px;
+  margin-top: 40px;
+  font-weight: bold;
+  color: green;
+}
+
+a[href^="https"] {
+  color: #f00;
+}
+
+a[href^="http:"] {
+  color: #ff8d00;
+}
+ul + p {
+  font-size: 26px;
+}
+
+a[title] {
+  border: 1px solid #067b09;
+}
+
+/* ДЗ третій рівень */
+
+.home-work3 {
+  font-size: 45px;
+  margin-left: 20px;
+  margin-top: 40px;
+  font-weight: bold;
+  color: green;
+}
+
+h3:first-child {
+  color: pink;
+}
+
+#greycol {
+  color: gray;
+}
+
+.text-box div p {
+  color: red;
+}
+
+h3[title="text"] {
+  color: blue;
+}
+
+p:nth-of-type(3) {
+  color: green;
+}
+
+p + p {
+  color: yellow;
+}
